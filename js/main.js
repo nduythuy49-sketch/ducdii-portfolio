@@ -2,9 +2,9 @@
 // MAIN CONTROLLER: PAGE LOGIC, ROUTING & RENDERING
 // ==========================================================================
 
-import { PROJECTS, ALBUMS } from "./data.js?v=2.3";
-import { getCurrentLang, setLanguage, applyTranslations } from "./i18n.js?v=2.3";
-import { modalViewer, toWebThumb, toWebDisplay } from "./modal.js?v=2.3";
+import { PROJECTS, ALBUMS } from "./data.js?v=2.4";
+import { getCurrentLang, setLanguage, applyTranslations } from "./i18n.js?v=2.4";
+import { modalViewer, toWebThumb, toWebDisplay, toWebVideo } from "./modal.js?v=2.4";
 
 document.addEventListener("DOMContentLoaded", () => {
   initLanguage();
@@ -59,8 +59,9 @@ function initMobileMenu() {
 
 function renderCoverHtml(proj, title) {
   if (proj.coverType === "video") {
+    const videoUrl = toWebVideo(proj.cover);
     return `
-      <video src="${encodeURI(proj.cover)}#t=1" preload="metadata" muted playsinline style="width:100%;height:100%;object-fit:cover;"></video>
+      <video src="${encodeURI(videoUrl)}#t=1" preload="metadata" muted playsinline style="width:100%;height:100%;object-fit:cover;"></video>
       <div class="card-play-icon">▶</div>
     `;
   }

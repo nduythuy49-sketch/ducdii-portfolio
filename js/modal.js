@@ -22,6 +22,15 @@ export function toWebDisplay(url) {
   return nfc;
 }
 
+export function toWebVideo(url) {
+  if (!url || typeof url !== "string") return url;
+  const nfc = url.normalize("NFC");
+  if (nfc.startsWith("media/")) {
+    return nfc.replace(/^media\//, "media_web/video/");
+  }
+  return nfc;
+}
+
 class MediaModal {
   constructor() {
     if (typeof document === "undefined") return;
@@ -247,7 +256,8 @@ class MediaModal {
       this.viewportEl.appendChild(iframe);
     } else if (item.type === "video") {
       const video = document.createElement("video");
-      video.src = encodeURI(item.url);
+      const webVideoUrl = toWebVideo(item.url);
+      video.src = encodeURI(webVideoUrl);
       video.controls = true;
       video.playsInline = true;
       // Mandate: DO NOT autoplay video; only play when user clicks
