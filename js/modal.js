@@ -6,22 +6,25 @@ import { getCurrentLang, TRANSLATIONS } from "./i18n.js?v=2.0";
 
 export function toWebThumb(url) {
   if (!url || typeof url !== "string") return url;
-  if (url.startsWith("media/")) {
-    return url.replace(/^media\//, "media_web/thumb/");
+  const nfc = url.normalize("NFC");
+  if (nfc.startsWith("media/")) {
+    return nfc.replace(/^media\//, "media_web/thumb/");
   }
-  return url;
+  return nfc;
 }
 
 export function toWebDisplay(url) {
   if (!url || typeof url !== "string") return url;
-  if (url.startsWith("media/")) {
-    return url.replace(/^media\//, "media_web/display/");
+  const nfc = url.normalize("NFC");
+  if (nfc.startsWith("media/")) {
+    return nfc.replace(/^media\//, "media_web/display/");
   }
-  return url;
+  return nfc;
 }
 
 class MediaModal {
   constructor() {
+    if (typeof document === "undefined") return;
     this.modalEl = document.getElementById("mediaModal");
     if (!this.modalEl) return;
 
@@ -257,7 +260,12 @@ class MediaModal {
       const img = document.createElement("img");
       const webDisplayUrl = toWebDisplay(item.url);
       img.src = encodeURI(webDisplayUrl);
-      img.onerror = () => { img.src = encodeURI(item.url); };
+      img.onerror = function() {
+        this.onerror = null;
+        if (!item.url.startsWith("media/")) {
+          this.src = encodeURI(item.url);
+        }
+      };
       img.alt = item.name || "Portfolio image";
       img.loading = "lazy";
       this.viewportEl.appendChild(img);
@@ -304,7 +312,12 @@ class MediaModal {
         const thumbImg = document.createElement("img");
         const webThumbUrl = toWebThumb(media.url);
         thumbImg.src = encodeURI(webThumbUrl);
-        thumbImg.onerror = () => { thumbImg.src = encodeURI(media.url); };
+        thumbImg.onerror = function() {
+          this.onerror = null;
+          if (!media.url.startsWith("media/")) {
+            this.src = encodeURI(media.url);
+          }
+        };
         thumbImg.alt = media.name || "";
         thumbImg.loading = "lazy";
         item.appendChild(thumbImg);

@@ -2,9 +2,9 @@
 // MAIN CONTROLLER: PAGE LOGIC, ROUTING & RENDERING
 // ==========================================================================
 
-import { PROJECTS, ALBUMS } from "./data.js?v=2.2";
-import { getCurrentLang, setLanguage, applyTranslations } from "./i18n.js?v=2.2";
-import { modalViewer, toWebThumb, toWebDisplay } from "./modal.js?v=2.2";
+import { PROJECTS, ALBUMS } from "./data.js?v=2.3";
+import { getCurrentLang, setLanguage, applyTranslations } from "./i18n.js?v=2.3";
+import { modalViewer, toWebThumb, toWebDisplay } from "./modal.js?v=2.3";
 
 document.addEventListener("DOMContentLoaded", () => {
   initLanguage();
@@ -66,7 +66,7 @@ function renderCoverHtml(proj, title) {
   }
   const displayUrl = toWebDisplay(proj.cover);
   return `
-    <img src="${encodeURI(displayUrl)}" alt="${title}" loading="lazy" onerror="this.src='${encodeURI(proj.cover)}'" />
+    <img src="${encodeURI(displayUrl)}" alt="${title}" loading="lazy" onerror="this.onerror=null;" />
     ${proj.media.some(m => m.type === "video") ? '<div class="card-play-icon">▶</div>' : ''}
   `;
 }
@@ -235,7 +235,7 @@ function renderPhotography() {
       card.className = "album-card";
       card.innerHTML = `
         <div class="album-thumb-wrapper">
-          <img src="${encodeURI(toWebDisplay(alb.cover))}" alt="${alb.title}" loading="lazy" onerror="this.src='${encodeURI(alb.cover)}'" />
+          <img src="${encodeURI(toWebDisplay(alb.cover))}" alt="${alb.title}" loading="lazy" onerror="this.onerror=null;" />
           <span class="album-count-badge">${alb.media.length} ${countUnit}</span>
         </div>
         <div class="album-body">
