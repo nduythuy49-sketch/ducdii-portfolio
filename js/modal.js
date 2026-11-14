@@ -243,15 +243,31 @@ class MediaModal {
     const item = this.currentMediaList[this.currentIndex];
     this.viewportEl.innerHTML = "";
 
+    const isVertical = item.aspectRatio === "9:16" || item.isVertical ||
+      (item.url && (item.url.includes("WONDER DEVIS") || item.url.includes("TIKTOK") || item.url.includes("COMMERCIAL")));
+
+    // Ambient backdrop for vertical video / media (eliminates awkward empty black void)
+    if (isVertical) {
+      const ambient = document.createElement("div");
+      ambient.className = "modal-ambient-backdrop";
+      let thumbUrl = item.thumb || item.cover || "";
+      if (!thumbUrl && item.youtubeId) {
+        thumbUrl = `https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`;
+      } else if (!thumbUrl && item.url) {
+        thumbUrl = toWebThumb(item.url);
+      }
+      if (thumbUrl) {
+        ambient.style.backgroundImage = `url("${encodeURI(thumbUrl)}")`;
+      }
+      this.viewportEl.appendChild(ambient);
+    }
+
     if (item.type === "youtube" || item.youtubeId) {
       const iframe = document.createElement("iframe");
       iframe.src = `https://www.youtube-nocookie.com/embed/${item.youtubeId}?autoplay=1&rel=0`;
       iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
       iframe.allowFullscreen = true;
-      iframe.style.width = "100%";
-      iframe.style.height = "100%";
-      iframe.style.aspectRatio = "16/9";
-      iframe.style.maxHeight = "80vh";
+      iframe.className = isVertical ? "player-vertical" : "player-horizontal";
       iframe.style.border = "none";
       this.viewportEl.appendChild(iframe);
     } else if (item.type === "video") {
@@ -263,8 +279,7 @@ class MediaModal {
       // Mandate: DO NOT autoplay video; only play when user clicks
       video.autoplay = false;
       video.preload = "metadata";
-      video.style.maxHeight = "100%";
-      video.style.maxWidth = "100%";
+      video.className = isVertical ? "player-vertical" : "player-horizontal";
       this.viewportEl.appendChild(video);
     } else {
       const img = document.createElement("img");

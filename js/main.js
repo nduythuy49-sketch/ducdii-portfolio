@@ -4,7 +4,7 @@
 
 import { PROJECTS, ALBUMS } from "./data.js?v=2.4";
 import { getCurrentLang, setLanguage, applyTranslations } from "./i18n.js?v=2.4";
-import { modalViewer, toWebThumb, toWebDisplay, toWebVideo } from "./modal.js?v=2.4";
+import { modalViewer, toWebThumb, toWebDisplay, toWebVideo } from "./modal.js?v=2.5";
 
 document.addEventListener("DOMContentLoaded", () => {
   initLanguage();
