@@ -277,6 +277,24 @@ class MediaModal {
 
     // Scroll active thumbnail into view
     this.scrollActiveThumbIntoView();
+
+    // Preload next and previous images for instant switching
+    this.preloadAdjacentMedia();
+  }
+
+  preloadAdjacentMedia() {
+    if (!this.currentMediaList || this.currentMediaList.length <= 1) return;
+    const len = this.currentMediaList.length;
+    const nextIdx = (this.currentIndex + 1) % len;
+    const prevIdx = (this.currentIndex - 1 + len) % len;
+
+    [nextIdx, prevIdx].forEach(idx => {
+      const media = this.currentMediaList[idx];
+      if (media && media.type !== "video" && media.type !== "youtube" && !media.youtubeId) {
+        const preloadImg = new Image();
+        preloadImg.src = encodeURI(toWebDisplay(media.url));
+      }
+    });
   }
 
   renderThumbnails() {

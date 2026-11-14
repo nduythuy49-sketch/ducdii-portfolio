@@ -754,19 +754,19 @@ export const PROJECTS = [
         "name": "000046.jpeg"
       },
       {
-        "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_2812.heif",
+        "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_2812.jpg",
         "type": "image",
-        "name": "IMG_2812.heif"
+        "name": "IMG_2812.jpg"
       },
       {
-        "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_2827.heif",
+        "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_2827.jpg",
         "type": "image",
-        "name": "IMG_2827.heif"
+        "name": "IMG_2827.jpg"
       },
       {
-        "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_2829.heif",
+        "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_2829.jpg",
         "type": "image",
-        "name": "IMG_2829.heif"
+        "name": "IMG_2829.jpg"
       },
       {
         "url": "media/02_PERSONAL PROJECTS/ĐATN - CAO SAO VÀNG \"CHẤT VIỆT VƯỢT THỜI GIAN\"/BTS/IMG_4850.jpeg",
