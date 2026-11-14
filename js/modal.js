@@ -264,7 +264,7 @@ class MediaModal {
 
     if (item.type === "youtube" || item.youtubeId) {
       const iframe = document.createElement("iframe");
-      iframe.src = `https://www.youtube-nocookie.com/embed/${item.youtubeId}?autoplay=1&rel=0`;
+      iframe.src = `https://www.youtube-nocookie.com/embed/${item.youtubeId}?autoplay=1&rel=0&modestbranding=1&playsinline=1`;
       iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
       iframe.allowFullscreen = true;
       iframe.className = isVertical ? "player-vertical" : "player-horizontal";
@@ -339,10 +339,9 @@ class MediaModal {
 
       if (media.type === "youtube" || media.youtubeId) {
         item.innerHTML = `
-          <div style="width:100%;height:100%;background:#181818;display:flex;align-items:center;justify-content:center;color:#e62117;font-size:1.3rem;">
-            ▶
-          </div>
-          <span class="thumb-video-badge" style="background:#cc0000;">YOUTUBE</span>
+          <img src="https://img.youtube.com/vi/${media.youtubeId}/mqdefault.jpg" alt="${media.name || 'Video'}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none';" />
+          <div style="position:absolute;inset:0;background:rgba(0,0,0,0.3);display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.1rem;">▶</div>
+          <span class="thumb-video-badge" style="background:rgba(204,0,0,0.85);font-size:0.6rem;letter-spacing:0.05em;">YOUTUBE</span>
         `;
       } else if (media.type === "video") {
         item.innerHTML = `

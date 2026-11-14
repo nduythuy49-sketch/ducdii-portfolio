@@ -183,70 +183,110 @@ export const PROJECTS = [
         "type": "video",
         "name": "28-9-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "I_hogLbK_2o",
+        "youtubeUrl": "https://youtu.be/I_hogLbK_2o",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/TOmdo 27-9-2026.mp4",
         "type": "video",
         "name": "TOmdo 27-9-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "2XB_sJi_l-s",
+        "youtubeUrl": "https://youtu.be/2XB_sJi_l-s",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 12-10-2026.mp4",
         "type": "video",
         "name": "Tomdo 12-10-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "htRcJCfKSsI",
+        "youtubeUrl": "https://youtu.be/htRcJCfKSsI",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 13-9-2026.mp4",
         "type": "video",
         "name": "Tomdo 13-9-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "_BuO_ovWkPg",
+        "youtubeUrl": "https://youtu.be/_BuO_ovWkPg",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 22-10-2026(1).mp4",
         "type": "video",
         "name": "Tomdo 22-10-2026(1).mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "CT5oxd8TfnI",
+        "youtubeUrl": "https://youtu.be/CT5oxd8TfnI",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 22-7-2026.mp4",
         "type": "video",
         "name": "Tomdo 22-7-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "Cluei05RG1I",
+        "youtubeUrl": "https://youtu.be/Cluei05RG1I",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 27-8-2026.mp4",
         "type": "video",
         "name": "Tomdo 27-8-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "9Sb0MrGpOKE",
+        "youtubeUrl": "https://youtu.be/9Sb0MrGpOKE",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 27102026.mp4",
         "type": "video",
         "name": "Tomdo 27102026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "8xEFCFHhXek",
+        "youtubeUrl": "https://youtu.be/8xEFCFHhXek",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 29102026.mp4",
         "type": "video",
         "name": "Tomdo 29102026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "TZ4JcXD0yYc",
+        "youtubeUrl": "https://youtu.be/TZ4JcXD0yYc",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/TÔM ĐỎ/VIDEOGRAPHY/Tomdo 9-8-2026.mp4",
         "type": "video",
         "name": "Tomdo 9-8-2026.mp4",
         "brand": "tom-do",
-        "brandName": "Hải sản Tôm Đỏ (Hội An)"
+        "brandName": "Hải sản Tôm Đỏ (Hội An)",
+        "youtubeId": "YiYlmTJp4C4",
+        "youtubeUrl": "https://youtu.be/YiYlmTJp4C4",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/PHOTOGRAPHY/Đã dán 12-11-2026 lúc 06:29:56.png",
@@ -344,70 +384,110 @@ export const PROJECTS = [
         "type": "video",
         "name": "Devis 10-9-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "zHf82UpaXoQ",
+        "youtubeUrl": "https://youtu.be/zHf82UpaXoQ",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 14-10-2026.mp4",
         "type": "video",
         "name": "Devis 14-10-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "sX3znI1VJ7Q",
+        "youtubeUrl": "https://youtu.be/sX3znI1VJ7Q",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 16-10-2026.mp4",
         "type": "video",
         "name": "Devis 16-10-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "syFiPnCD-d4",
+        "youtubeUrl": "https://youtu.be/syFiPnCD-d4",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 16-7-2026.mp4",
         "type": "video",
         "name": "Devis 16-7-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "cGctEHOWjQk",
+        "youtubeUrl": "https://youtu.be/cGctEHOWjQk",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 28-6-2026.mp4",
         "type": "video",
         "name": "Devis 28-6-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "dKTRzR63MFI",
+        "youtubeUrl": "https://youtu.be/dKTRzR63MFI",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 28-7-2026.mp4",
         "type": "video",
         "name": "Devis 28-7-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "e5vBn5fX1BM",
+        "youtubeUrl": "https://youtu.be/e5vBn5fX1BM",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 28-9-2026.mp4",
         "type": "video",
         "name": "Devis 28-9-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "m8qrEwljJRI",
+        "youtubeUrl": "https://youtu.be/m8qrEwljJRI",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 30-7-2026.mp4",
         "type": "video",
         "name": "Devis 30-7-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "wlS66Ym08eM",
+        "youtubeUrl": "https://youtu.be/wlS66Ym08eM",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 6-8-2026.mp4",
         "type": "video",
         "name": "Devis 6-8-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "D5lQweW1mHw",
+        "youtubeUrl": "https://youtu.be/D5lQweW1mHw",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/DEVI'S BAKERY/VIDEOGRAPHY/Devis 7-8-2026.mp4",
         "type": "video",
         "name": "Devis 7-8-2026.mp4",
         "brand": "devis-bakery",
-        "brandName": "Devi's Bakery (Đà Nẵng)"
+        "brandName": "Devi's Bakery (Đà Nẵng)",
+        "youtubeId": "O5nIrSZ47Sg",
+        "youtubeUrl": "https://youtu.be/O5nIrSZ47Sg",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/PHOTOGRAPHY/42.png",
@@ -526,77 +606,121 @@ export const PROJECTS = [
         "type": "video",
         "name": "Ubebe 12-10-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "4cGEUpTIO_Y",
+        "youtubeUrl": "https://youtu.be/4cGEUpTIO_Y",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 13-10-2026.mp4",
         "type": "video",
         "name": "Ubebe 13-10-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "QoF0DU24jMc",
+        "youtubeUrl": "https://youtu.be/QoF0DU24jMc",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 23-9-2026.mp4",
         "type": "video",
         "name": "Ubebe 23-9-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "LBXzXxKprpg",
+        "youtubeUrl": "https://youtu.be/LBXzXxKprpg",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 24102026.mp4",
         "type": "video",
         "name": "Ubebe 24102026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "N1V7zz5_YgY",
+        "youtubeUrl": "https://youtu.be/N1V7zz5_YgY",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 27102026.mp4",
         "type": "video",
         "name": "Ubebe 27102026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "pCbTefNCJ7U",
+        "youtubeUrl": "https://youtu.be/pCbTefNCJ7U",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 28-8-2026.mp4",
         "type": "video",
         "name": "Ubebe 28-8-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "b8qF0KxKIvc",
+        "youtubeUrl": "https://youtu.be/b8qF0KxKIvc",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 29-8-2026.mp4",
         "type": "video",
         "name": "Ubebe 29-8-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "qcHIeaQyCso",
+        "youtubeUrl": "https://youtu.be/qcHIeaQyCso",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 7-10-2026.mp4",
         "type": "video",
         "name": "Ubebe 7-10-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "hy4-IOfLSPc",
+        "youtubeUrl": "https://youtu.be/hy4-IOfLSPc",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 7-8-2026 fix.mp4",
         "type": "video",
         "name": "Ubebe 7-8-2026 fix.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "VVbNTU_w1D8",
+        "youtubeUrl": "https://youtu.be/VVbNTU_w1D8",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/Ubebe 9-10-2026.mp4",
         "type": "video",
         "name": "Ubebe 9-10-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "SDgp73RJjzs",
+        "youtubeUrl": "https://youtu.be/SDgp73RJjzs",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/UBEBE/VIDEOGRAPHY/ubebe 20-8-2026.mp4",
         "type": "video",
         "name": "ubebe 20-8-2026.mp4",
         "brand": "ubebe",
-        "brandName": "Ubebe (Hội An)"
+        "brandName": "Ubebe (Hội An)",
+        "youtubeId": "7b68BcPiks8",
+        "youtubeUrl": "https://youtu.be/7b68BcPiks8",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/PHOTOGRAPHY/1.png",
@@ -659,49 +783,77 @@ export const PROJECTS = [
         "type": "video",
         "name": "Rakrock 13-8-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "BUVLN_haWTw",
+        "youtubeUrl": "https://youtu.be/BUVLN_haWTw",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/VIDEOGRAPHY/Rakrock 22-6-2026.mp4",
         "type": "video",
         "name": "Rakrock 22-6-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "XQNN8uopjWA",
+        "youtubeUrl": "https://youtu.be/XQNN8uopjWA",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/VIDEOGRAPHY/Rakrock 29-6-2026.mp4",
         "type": "video",
         "name": "Rakrock 29-6-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "Sy8PdkCLvjI",
+        "youtubeUrl": "https://youtu.be/Sy8PdkCLvjI",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/VIDEOGRAPHY/Rakrock 30-7-2026.mp4",
         "type": "video",
         "name": "Rakrock 30-7-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "Sw0mD1vjQEQ",
+        "youtubeUrl": "https://youtu.be/Sw0mD1vjQEQ",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/VIDEOGRAPHY/Rakrock 30-8-2026.mp4",
         "type": "video",
         "name": "Rakrock 30-8-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "G6v3TWOE3m8",
+        "youtubeUrl": "https://youtu.be/G6v3TWOE3m8",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/VIDEOGRAPHY/Rakrock 5-7-2026.mp4",
         "type": "video",
         "name": "Rakrock 5-7-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "iK7H6rXVMaI",
+        "youtubeUrl": "https://youtu.be/iK7H6rXVMaI",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/01_WONDER DEVIS/RAKROCK LOBSTER/VIDEOGRAPHY/Rakrock 6-9-2026.mp4",
         "type": "video",
         "name": "Rakrock 6-9-2026.mp4",
         "brand": "rakrock",
-        "brandName": "Rakrock Lobster (Phú Quốc)"
+        "brandName": "Rakrock Lobster (Phú Quốc)",
+        "youtubeId": "ONFjyqi-5KA",
+        "youtubeUrl": "https://youtu.be/ONFjyqi-5KA",
+        "aspectRatio": "9:16",
+        "isVertical": true
       }
     ]
   },
@@ -952,22 +1104,38 @@ export const PROJECTS = [
       {
         "url": "media/01_COMMERCIAL WORKS/02_NHỎ NHẬU (NHỎ CHÂN GÀ)/TIKTOK QUỲNH CHÂN GÀ/Khám phá kho hàng dụng cụ bếp l Phần 1 - Thiên đường dụng cụ bếp trong ngôi nhà 3 tầng.mp4",
         "type": "video",
-        "name": "Khám phá kho hàng dụng cụ bếp l Phần 1 - Thiên đường dụng cụ bếp trong ngôi nhà 3 tầng.mp4"
+        "name": "Khám phá kho hàng dụng cụ bếp l Phần 1 - Thiên đường dụng cụ bếp trong ngôi nhà 3 tầng.mp4",
+        "youtubeId": "IAsWovmpsus",
+        "youtubeUrl": "https://youtu.be/IAsWovmpsus",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/02_NHỎ NHẬU (NHỎ CHÂN GÀ)/TIKTOK QUỲNH CHÂN GÀ/Mỗi thương hiệu sẽ có định hướng content riêng. Với Nhỏ Chân Gà thì chất lượng phục vụ và món ăn mới là giá trị cốt lõi..mp4",
         "type": "video",
-        "name": "Mỗi thương hiệu sẽ có định hướng content riêng. Với Nhỏ Chân Gà thì chất lượng phục vụ và món ăn mới là giá trị cốt lõi..mp4"
+        "name": "Mỗi thương hiệu sẽ có định hướng content riêng. Với Nhỏ Chân Gà thì chất lượng phục vụ và món ăn mới là giá trị cốt lõi..mp4",
+        "youtubeId": "ZbmtnTWuxoc",
+        "youtubeUrl": "https://youtu.be/ZbmtnTWuxoc",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/02_NHỎ NHẬU (NHỎ CHÂN GÀ)/TIKTOK QUỲNH CHÂN GÀ/Nghệ thuật bán hàng - Phần 2 - Chiến thần Miệng không hồi chiêu.mp4",
         "type": "video",
-        "name": "Nghệ thuật bán hàng - Phần 2 - Chiến thần Miệng không hồi chiêu.mp4"
+        "name": "Nghệ thuật bán hàng - Phần 2 - Chiến thần Miệng không hồi chiêu.mp4",
+        "youtubeId": "43fMwmvF7Ro",
+        "youtubeUrl": "https://youtu.be/43fMwmvF7Ro",
+        "aspectRatio": "9:16",
+        "isVertical": true
       },
       {
         "url": "media/01_COMMERCIAL WORKS/02_NHỎ NHẬU (NHỎ CHÂN GÀ)/TIKTOK QUỲNH CHÂN GÀ/Nhỏ Nhậu chính thức mở bán, mọi thứ đã sẵn sàng phục vụ bạn..mp4",
         "type": "video",
-        "name": "Nhỏ Nhậu chính thức mở bán, mọi thứ đã sẵn sàng phục vụ bạn..mp4"
+        "name": "Nhỏ Nhậu chính thức mở bán, mọi thứ đã sẵn sàng phục vụ bạn..mp4",
+        "youtubeId": "fL0yKpJiFbk",
+        "youtubeUrl": "https://youtu.be/fL0yKpJiFbk",
+        "aspectRatio": "9:16",
+        "isVertical": true
       }
     ]
   },
