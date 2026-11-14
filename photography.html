@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photography — NGUYỄN ĐỨC DUY (ducdii)</title>
+  <meta name="description" content="Album ảnh chân dung, couple, nhóm và phóng sự thể thao của Nguyễn Đức Duy — Photographer & Retoucher tại Đà Nẵng, Hội An." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css?v=2.3" />
+</head>
+<body data-page="photography">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand-wrapper">
+        <span class="brand-title">NGUYỄN ĐỨC DUY</span>
+        <span class="brand-signature">ducdii</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link" data-i18n="nav_home">Trang chủ</a></li>
+          <li><a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">Portfolio</a></li>
+          <li><a href="photography.html" class="nav-link active" data-i18n="nav_photography">Photography</a></li>
+          <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="langToggleBtn" class="lang-btn" aria-label="Toggle language">
+          <span class="active-lang">VI</span> / <span>EN</span>
+        </button>
+        <button id="mobileToggleBtn" class="mobile-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay -->
+  <div id="mobileOverlay" class="mobile-menu-overlay">
+    <a href="index.html" class="nav-link" data-i18n="nav_home">Trang chủ</a>
+    <a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">Portfolio</a>
+    <a href="photography.html" class="nav-link active" data-i18n="nav_photography">Photography</a>
+    <a href="contact.html" class="nav-link" data-i18n="nav_contact">Liên hệ</a>
+  </div>
+
+  <!-- Page Header -->
+  <section style="padding: 4.5rem 0 2.5rem;">
+    <div class="container">
+      <h1 class="section-title" data-i18n="photo_title" style="font-size: 3.2rem; margin-bottom: 0.8rem;">Photography &amp; Visual Stories</h1>
+      <p style="color: var(--text-secondary); max-width: 650px; font-size: 1.05rem;" data-i18n="photo_subtitle">
+        Phong cách nhiếp ảnh tôn trọng cảm xúc tự nhiên, ánh sáng chân thực và tinh thần khoáng đạt.
+      </p>
+    </div>
+  </section>
+
+  <!-- Album Filters & Grid -->
+  <section style="padding-bottom: 4rem;">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-photo-filter="all" data-i18n="filter_photo_all">Tất cả</button>
+        <button class="filter-btn" data-photo-filter="individual" data-i18n="filter_individual">Đơn (Individual)</button>
+        <button class="filter-btn" data-photo-filter="couple" data-i18n="filter_couple">Đôi (Couple)</button>
+        <button class="filter-btn" data-photo-filter="friends" data-i18n="filter_friends">Nhóm (Friends)</button>
+        <button class="filter-btn" data-photo-filter="sports" data-i18n="filter_sports">Thể thao (Sports)</button>
+      </div>
+
+      <div id="photoGrid" class="photo-grid">
+        <!-- Rendered via main.js (2 columns on mobile, 3 columns on desktop) -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Photography Pricing & Packages Section -->
+  <section id="pricing" class="pricing-section" style="padding: 5rem 0 4rem; border-top: 1px solid var(--border-light); background: var(--bg-primary);">
+    <div class="container">
+      <div class="section-header" style="border-bottom: none; margin-bottom: 0.5rem; text-align: center;">
+        <div style="max-width: 720px; margin: 0 auto;">
+          <h2 class="section-title" data-i18n="pricing_title" style="font-size: 2.5rem;">Bảng Giá Gói Chụp Ảnh</h2>
+          <p style="color: var(--text-secondary); margin-top: 0.6rem; font-size: 0.95rem; line-height: 1.6;" data-i18n="pricing_subtitle">
+            Bảng giá minh bạch, cam kết chất lượng file trả và hỗ trợ tư vấn concept tận tâm tại khu vực Đà Nẵng, Hội An và lân cận.
+          </p>
+        </div>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Package 1: Individual Portrait (Featured) -->
+        <div class="pricing-card featured">
+          <span class="pricing-badge" data-i18n="pkg_popular">Phổ biến nhất</span>
+          <div class="pricing-card-header">
+            <h3 class="pricing-card-title" data-i18n="pkg_1_title">Chân Dung Cá Nhân</h3>
+            <p class="pricing-card-sub" data-i18n="pkg_1_sub">Portrait • Áo Dài • Lookbook Cá Nhân</p>
+            <div class="pricing-price" data-i18n="pkg_1_price">Từ 600.000đ</div>
+          </div>
+          <ul class="pricing-features">
+            <li data-i18n="pkg_1_feat1">Thời lượng: Tối thiểu 1.5 tiếng</li>
+            <li data-i18n="pkg_1_feat2">Full JPG chọn lọc &amp; cân chỉnh sáng/màu</li>
+            <li data-i18n="pkg_1_feat3">Từ 15 ảnh hậu kỳ da &amp; màu chuyên sâu</li>
+            <li data-i18n="pkg_1_feat4">Tư vấn concept, góc mặt &amp; địa điểm chụp</li>
+          </ul>
+          <div class="pricing-deposit" data-i18n="pkg_1_deposit">Cọc giữ lịch: 200.000đ</div>
+          <button type="button" class="btn btn-primary select-pkg-btn" data-pkg-val="pkg1" data-i18n="pkg_select_btn">Chọn Gói Này</button>
+        </div>
+
+        <!-- Package 2: Couple & Best Friends -->
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <h3 class="pricing-card-title" data-i18n="pkg_2_title">Ảnh Đôi / Bạn Thân</h3>
+            <p class="pricing-card-sub" data-i18n="pkg_2_sub">Couple • Đôi Bạn Thân • Kỷ Niệm</p>
+            <div class="pricing-price" data-i18n="pkg_2_price">Từ 1.200.000đ</div>
+          </div>
+          <ul class="pricing-features">
+            <li data-i18n="pkg_2_feat1">Thời lượng: Tối thiểu 2 tiếng</li>
+            <li data-i18n="pkg_2_feat2">Full JPG chọn lọc &amp; cân chỉnh sáng/màu</li>
+            <li data-i18n="pkg_2_feat3">Từ 30 ảnh hậu kỳ chuyên sâu</li>
+            <li data-i18n="pkg_2_feat4">Hỗ trợ tư vấn trang phục &amp; phụ kiện phù hợp concept</li>
+          </ul>
+          <div class="pricing-deposit" data-i18n="pkg_2_deposit">Cọc giữ lịch: 300.000đ</div>
+          <button type="button" class="btn btn-outline select-pkg-btn" data-pkg-val="pkg2" data-i18n="pkg_select_btn">Chọn Gói Này</button>
+        </div>
+
+        <!-- Package 3: Friends & Groups -->
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <h3 class="pricing-card-title" data-i18n="pkg_3_title">Nhóm / Bạn Bè</h3>
+            <p class="pricing-card-sub" data-i18n="pkg_3_sub">Friends (3–5 người) • Band • Kỷ Yếu</p>
+            <div class="pricing-price" data-i18n="pkg_3_price">Từ 1.800.000đ</div>
+          </div>
+          <ul class="pricing-features">
+            <li data-i18n="pkg_3_feat1">Thời lượng: Tối thiểu 2 tiếng</li>
+            <li data-i18n="pkg_3_feat2">Full JPG chọn lọc &amp; cân chỉnh sáng/màu</li>
+            <li data-i18n="pkg_3_feat3">Từ 40 ảnh hậu kỳ chuyên sâu (theo số người)</li>
+            <li data-i18n="pkg_3_feat4">Từ người thứ 6: phụ thu 250k/người</li>
+          </ul>
+          <div class="pricing-deposit" data-i18n="pkg_3_deposit">Cọc giữ lịch: 500.000đ</div>
+          <button type="button" class="btn btn-outline select-pkg-btn" data-pkg-val="pkg3" data-i18n="pkg_select_btn">Chọn Gói Này</button>
+        </div>
+
+        <!-- Package 4: Sports & Tournaments -->
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <h3 class="pricing-card-title" data-i18n="pkg_4_title">Thể Thao / Giải Đấu</h3>
+            <p class="pricing-card-sub" data-i18n="pkg_4_sub">Cầu Lông • Pickleball • Giải Phong Trào</p>
+            <div class="pricing-price" data-i18n="pkg_4_price">800.000đ / buổi</div>
+          </div>
+          <ul class="pricing-features">
+            <li data-i18n="pkg_4_feat1">Quy mô: Giải từ ~40 vận động viên</li>
+            <li data-i18n="pkg_4_feat2">Bắt trọn khoảnh khắc thi đấu &amp; trao giải</li>
+            <li data-i18n="pkg_4_feat3">Full JPG chọn lọc &amp; cân sáng màu toàn diện</li>
+            <li data-i18n="pkg_4_feat4">Chỉ trả JPG chất lượng cao (không trả RAW)</li>
+          </ul>
+          <div class="pricing-deposit" data-i18n="pkg_4_deposit">Cọc giữ lịch: 300.000đ</div>
+          <button type="button" class="btn btn-outline select-pkg-btn" data-pkg-val="pkg4" data-i18n="pkg_select_btn">Chọn Gói Này</button>
+        </div>
+      </div>
+
+      <div class="commercial-note-box">
+        <span data-i18n="pkg_commercial_note">Chụp Thương Mại, F&amp;B &amp; Không Gian Kiến Trúc: Báo giá linh hoạt theo đề bài và số lượng món.</span>
+        <a href="contact.html" data-i18n="pkg_commercial_link">Liên hệ tư vấn riêng &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Policies Section -->
+  <section id="policies" class="policies-section">
+    <div class="container">
+      <div class="section-header" style="border-bottom: none; margin-bottom: 0.5rem; text-align: center;">
+        <div style="max-width: 680px; margin: 0 auto;">
+          <h2 class="section-title" data-i18n="policy_title" style="font-size: 2.3rem;">Chính Sách &amp; Quy Trình Dịch Vụ</h2>
+          <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem; line-height: 1.6;" data-i18n="policy_subtitle">
+            Những cam kết minh bạch để đảm bảo buổi chụp diễn ra thuận lợi và trọn vẹn nhất.
+          </p>
+        </div>
+      </div>
+
+      <div class="policies-grid">
+        <div class="policy-card">
+          <div class="policy-icon">⏱️</div>
+          <h3 class="policy-title" data-i18n="policy_time_title">Thời Gian Trả Ảnh</h3>
+          <p class="policy-desc" data-i18n="policy_time_desc">
+            Ảnh Đơn &amp; Đôi trả sau 2 – 3 ngày làm việc. Ảnh Nhóm &amp; Thể thao trả sau 3 – 5 ngày làm việc qua Google Drive chất lượng cao.
+          </p>
+        </div>
+
+        <div class="policy-card">
+          <div class="policy-icon">✨</div>
+          <h3 class="policy-title" data-i18n="policy_retouch_title">Hậu Kỳ Phát Sinh</h3>
+          <p class="policy-desc" data-i18n="policy_retouch_desc">
+            Phụ thu 10.000đ / tấm đối với khách hàng có nhu cầu chỉnh sửa hậu kỳ chuyên sâu thêm ngoài số lượng ảnh có sẵn trong gói.
+          </p>
+        </div>
+
+        <div class="policy-card">
+          <div class="policy-icon">🗓️</div>
+          <h3 class="policy-title" data-i18n="policy_deposit_title">Thay Đổi Lịch Trình</h3>
+          <p class="policy-desc" data-i18n="policy_deposit_desc">
+            Thời tiết xấu/mưa bão: Hỗ trợ đổi ngày hoặc hủy lịch hoàn lại 100% cọc. Lý do cá nhân: Hỗ trợ dời lịch miễn phí 01 lần; từ lần thứ 2 sẽ không hoàn lại cọc.
+          </p>
+        </div>
+
+        <div class="policy-card">
+          <div class="policy-icon">📍</div>
+          <h3 class="policy-title" data-i18n="policy_extra_title">Chi Phí Địa Điểm &amp; Đi Lại</h3>
+          <p class="policy-desc" data-i18n="policy_extra_desc">
+            Khách hàng tự chi trả vé vào cổng, phí thuê studio và phụ phí phát sinh nếu chụp ngoài bán kính trung tâm Đà Nẵng (Huế, Hội An xa...).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Online Booking Form Section -->
+  <section id="booking" class="booking-section">
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-header">
+          <h2 class="section-title" data-i18n="booking_title">Đặt Lịch Chụp Trực Tuyến</h2>
+          <p data-i18n="booking_subtitle">
+            Điền thông tin bên dưới, hệ thống sẽ tự động soạn tin nhắn và kết nối trực tiếp đến Zalo của Duy để chốt lịch nhanh nhất.
+          </p>
+        </div>
+
+        <form id="photoBookingForm" class="booking-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookingName" class="form-label" data-i18n="form_name_label">Họ và tên của bạn *</label>
+              <input type="text" id="bookingName" name="fullName" required class="form-input" data-i18n-ph="form_name_placeholder" placeholder="Ví dụ: Nguyễn Phương Mai">
+            </div>
+
+            <div class="form-group">
+              <label for="bookingPhone" class="form-label" data-i18n="form_phone_label">Số điện thoại / Zalo *</label>
+              <input type="tel" id="bookingPhone" name="phoneZalo" required class="form-input" data-i18n-ph="form_phone_placeholder" placeholder="Ví dụ: 0905 123 456">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="packageSelect" class="form-label" data-i18n="form_pkg_label">Gói dịch vụ quan tâm *</label>
+              <select id="packageSelect" name="packageSelect" required class="form-select">
+                <option value="pkg1" data-i18n="form_pkg_opt1" selected>Gói 01: Chân dung Cá nhân (Từ 600K)</option>
+                <option value="pkg2" data-i18n="form_pkg_opt2">Gói 02: Ảnh Đôi / Bạn thân (Từ 1.200K)</option>
+                <option value="pkg3" data-i18n="form_pkg_opt3">Gói 03: Nhóm / Bạn bè / Band (Từ 1.800K)</option>
+                <option value="pkg4" data-i18n="form_pkg_opt4">Gói 04: Thể thao / Giải đấu (Từ 800K/buổi)</option>
+                <option value="pkg5" data-i18n="form_pkg_opt5">Gói Thương Mại / F&amp;B / Không gian</option>
+                <option value="custom" data-i18n="form_pkg_opt6">Yêu cầu tùy chỉnh khác</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="bookingDate" class="form-label" data-i18n="form_date_label">Ngày dự kiến chụp</label>
+              <input type="date" id="bookingDate" name="shootDate" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingLocation" class="form-label" data-i18n="form_loc_label">Địa điểm / Concept mong muốn</label>
+            <input type="text" id="bookingLocation" name="locationConcept" class="form-input" data-i18n-ph="form_loc_placeholder" placeholder="Ví dụ: Biển Mỹ Khê, Phố cổ Hội An, Studio...">
+          </div>
+
+          <div class="form-group">
+            <label for="bookingNotes" class="form-label" data-i18n="form_notes_label">Ghi chú &amp; Yêu cầu thêm</label>
+            <textarea id="bookingNotes" name="notes" rows="3" class="form-textarea" data-i18n-ph="form_notes_placeholder" placeholder="Ý tưởng trang phục, số lượng người, thời gian mong muốn..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-booking" data-i18n="form_submit_btn">
+            Gửi Yêu Cầu &amp; Chốt Lịch Qua Zalo
+          </button>
+
+          <p class="booking-notice" data-i18n="form_notice_text">
+            Thông tin của bạn được bảo mật và chỉ dùng để trao đổi, xác nhận lịch chụp trực tiếp với Duy qua Zalo.
+          </p>
+
+          <div id="bookingAlert" class="booking-alert" data-i18n="form_alert_success">
+            Đã sao chép nội dung đặt lịch! Đang mở cửa sổ chat Zalo với Nguyễn Đức Duy...
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Modal Viewer -->
+  <div id="mediaModal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <h2 id="modalTitle" class="modal-title">Album Title</h2>
+          <div class="modal-meta-line">
+            <span id="modalMeta">Location • Year</span>
+            <span>|</span>
+            <span id="modalRole" style="color: var(--accent);">Photographer &amp; Retoucher</span>
+          </div>
+        </div>
+        <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-content">
+        <button id="modalPrevBtn" class="modal-nav-arrow modal-nav-prev" aria-label="Previous media">&#10094;</button>
+        <div id="modalViewport" class="modal-media-viewport">
+          <!-- Dynamic Image Injected -->
+        </div>
+        <button id="modalNextBtn" class="modal-nav-arrow modal-nav-next" aria-label="Next media">&#10095;</button>
+      </div>
+
+      <div id="modalThumbStrip" class="modal-thumb-strip">
+        <!-- Thumbnails strip injected -->
+      </div>
+
+      <div class="modal-details">
+        <p id="modalOverview" class="modal-overview">Overview description goes here.</p>
+        <span id="modalCounter" class="modal-counter">1 / 1</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>NGUYỄN ĐỨC DUY</h3>
+          <p data-i18n="footer_role">Media & Content Production Specialist • Da Nang, Vietnam</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link" data-i18n="nav_home">Trang chủ</a></li>
+          <li><a href="portfolio.html" class="footer-link" data-i18n="nav_portfolio">Portfolio</a></li>
+          <li><a href="photography.html" class="footer-link" data-i18n="nav_photography">Photography</a></li>
+          <li><a href="contact.html" class="footer-link" data-i18n="nav_contact">Liên hệ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer_rights">© 2026 NGUYỄN ĐỨC DUY (ducdii). All rights reserved.</span>
+        <span data-i18n="footer_role">MEDIA &amp; CONTENT PRODUCTION SPECIALIST</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js?v=2.2"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — NGUYỄN ĐỨC DUY (ducdii)</title>
+  <meta name="description" content="Commercial Works và Personal Projects của Nguyễn Đức Duy — Media Executive, Visual Content & Commercial Production." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css?v=2.3" />
+</head>
+<body data-page="portfolio">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand-wrapper">
+        <span class="brand-title">NGUYỄN ĐỨC DUY</span>
+        <span class="brand-signature">ducdii</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link" data-i18n="nav_home">Trang chủ</a></li>
+          <li><a href="portfolio.html" class="nav-link active" data-i18n="nav_portfolio">Portfolio</a></li>
+          <li><a href="photography.html" class="nav-link" data-i18n="nav_photography">Photography</a></li>
+          <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="langToggleBtn" class="lang-btn" aria-label="Toggle language">
+          <span class="active-lang">VI</span> / <span>EN</span>
+        </button>
+        <button id="mobileToggleBtn" class="mobile-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay -->
+  <div id="mobileOverlay" class="mobile-menu-overlay">
+    <a href="index.html" class="nav-link" data-i18n="nav_home">Trang chủ</a>
+    <a href="portfolio.html" class="nav-link active" data-i18n="nav_portfolio">Portfolio</a>
+    <a href="photography.html" class="nav-link" data-i18n="nav_photography">Photography</a>
+    <a href="contact.html" class="nav-link" data-i18n="nav_contact">Liên hệ</a>
+  </div>
+
+  <!-- Page Header -->
+  <section style="padding: 4.5rem 0 2.5rem;">
+    <div class="container">
+      <h1 class="section-title" data-i18n="portfolio_title" style="font-size: 3.2rem; margin-bottom: 0.8rem;">Dự Án & Tác Phẩm</h1>
+      <p style="color: var(--text-secondary); max-width: 650px; font-size: 1.05rem;" data-i18n="portfolio_subtitle">
+        Tuyển tập các sản phẩm Commercial Works và Personal Projects được trực tiếp tham gia sản xuất và sáng tạo.
+      </p>
+    </div>
+  </section>
+
+  <!-- Filter Bar & Grid -->
+  <section style="padding-bottom: 6rem;">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Tất cả</button>
+        <button class="filter-btn" data-filter="commercial" data-i18n="filter_commercial">Commercial Works</button>
+        <button class="filter-btn" data-filter="personal" data-i18n="filter_personal">Personal Projects</button>
+      </div>
+
+      <div id="portfolioGrid" class="portfolio-grid">
+        <!-- Injected via main.js (2 columns desktop, 1 column mobile) -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Modal Viewer -->
+  <div id="mediaModal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <h2 id="modalTitle" class="modal-title">Project Title</h2>
+          <div class="modal-meta-line">
+            <span id="modalMeta">Company • 2026</span>
+            <span>|</span>
+            <span id="modalRole" style="color: var(--accent);">Role</span>
+          </div>
+        </div>
+        <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <!-- Sub-brand tab bar (e.g. for Wonder Devis) -->
+      <div id="modalSubBrandBar" class="modal-subbrand-bar" style="display: none;"></div>
+
+      <div class="modal-content">
+        <button id="modalPrevBtn" class="modal-nav-arrow modal-nav-prev" aria-label="Previous media">&#10094;</button>
+        <div id="modalViewport" class="modal-media-viewport">
+          <!-- Dynamic Image or Video Injected -->
+        </div>
+        <button id="modalNextBtn" class="modal-nav-arrow modal-nav-next" aria-label="Next media">&#10095;</button>
+      </div>
+
+      <div id="modalThumbStrip" class="modal-thumb-strip">
+        <!-- Thumbnails strip injected -->
+      </div>
+
+      <div class="modal-details">
+        <p id="modalOverview" class="modal-overview">Overview description goes here.</p>
+        <span id="modalCounter" class="modal-counter">1 / 1</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>NGUYỄN ĐỨC DUY</h3>
+          <p data-i18n="footer_role">Media & Content Production Specialist • Da Nang, Vietnam</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link" data-i18n="nav_home">Trang chủ</a></li>
+          <li><a href="portfolio.html" class="footer-link" data-i18n="nav_portfolio">Portfolio</a></li>
+          <li><a href="photography.html" class="footer-link" data-i18n="nav_photography">Photography</a></li>
+          <li><a href="contact.html" class="footer-link" data-i18n="nav_contact">Liên hệ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer_rights">© 2026 NGUYỄN ĐỨC DUY (ducdii). All rights reserved.</span>
+        <span data-i18n="footer_role">MEDIA &amp; CONTENT PRODUCTION SPECIALIST</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js?v=2.2"></script>
+</body>
+</html>
